@@ -1,1 +1,10 @@
-test s
+cd$
+cd/path to your folder$
+ls to view file in the path$
+git clone  https://github.com/deangal$
+git status to view rep$
+git commit -m "comment" filename$
+git push$
+
+  
+ 
