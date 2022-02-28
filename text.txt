@@ -1,21 +1,23 @@
-cd$
-cd/path to your folder$
-ls to view file in the path$
-git clone  https://github.com/deangal$
-git status to view rep$
-git add filename$
-git commit -m "comment" filename$
-git push$
+clone a project from GitHub
 
+cd/path to your folder
+ls to view file in the path
+git clone  https://github.com/.git url
+git status to view rep
 
-
-FROM VSCODE
+push code to GitHub
 
 cd yourApp
 git init 
-git remote add origin {git repo link}
+git remote add <branch_name> {git repo link}
 git add .
 git commit -m "commit" 
-git push origin master
-  
+git push origin <branch_name>
+
+push code to new branch
+
+git remote -v // to check url
+git branch // to check branch
+git checkout -b <branch_name>
+git push -u <git url>  
  
